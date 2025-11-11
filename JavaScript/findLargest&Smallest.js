@@ -12,7 +12,7 @@ function findLargest(array) {
   return num;
 }
 
-function findSmalest(array) {
+function findSmallest(array) {
   let num = array[0];
 
   for (let i = 0; i < array.length; i++) {
@@ -25,4 +25,4 @@ function findSmalest(array) {
 }
 
 console.log(findLargest(arr));
-console.log(findSmalest(arr));
+console.log(findSmallest(arr));
